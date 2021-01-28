@@ -1,0 +1,40 @@
+#pracownicy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px auto;
+    justify-content: space-between;
+    align-content: center;
+    width: 1140px;
+
+}
+
+span,
+input {
+    width: 200px;
+    margin: 5px 5px;
+}
+
+span {
+    border: 1px solid lightgray;
+}
+
+.job { 
+    display: flex;
+   justify-content: space-between;
+   
+}
+
+
+button {
+    width: 100px;
+    margin: 30px auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
